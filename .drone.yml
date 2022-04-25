@@ -3,7 +3,7 @@ name: Drone
 
 steps:
  - name: compile
-   image: ubuntu/ubuntu:latest
+   image: ubuntu:latest
    environment:
      token:
        from_secret: token
